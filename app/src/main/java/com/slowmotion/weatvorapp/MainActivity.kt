@@ -96,7 +96,9 @@ class MainActivity : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show()
         }
+
     }
+
 
     private fun showRationalDialogPermission() {
         AlertDialog.Builder(this)
@@ -257,6 +259,7 @@ class MainActivity : AppCompatActivity() {
         }
         return value
     }
+
 
 }
 
